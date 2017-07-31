@@ -6,9 +6,20 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
+<!--Wrapper for entire page-->
+<div class="wrapper">
 	<header>
-		<h1>Setu Biswas</h1>
+		<!--Put 2 divs in header section to format each one differently-->
+		<div class="head-1">
+			<h1>Setu Biswas</h1>
+		</div>
+
+		<div class="head-2">
+			<a href="index.html">About Me</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+		</div>
+
 	</header>
 
 	<div class="container">
@@ -16,7 +27,10 @@
 	<section id="main-bio">	
 
 		<h2>About Me</h2>
-		<img src="assets/images/profile_4.jpg" alt="Setu" id="bio-image">
+			<section id="profile">
+				<img src="assets/images/profile_4.jpg" alt="Setu" id="bio-image" style="width:125px;height:200px;">
+			</section>
+		<div class="about-paragraph">
 		<p>
 			Have you ever met someone with a first name like Setu?  Me either.  Fun fact, I am the only Setu in the United States.  In fact, all of North America.  I'm going to guess South America also but cannot confirm.  There are people named Setu in India though and I think somewhere in Europe too.  How cool would it have been if I was the only Setu in the entire world?  That would be awesome to me.
 			<br><br>
@@ -24,9 +38,21 @@
 			<br><br>
 			I was born and raised in the United States along with my brother.  We are first generation Indian Americans.  Both my parents immigrated from Bangladesh while some of their relatives moved to Calcutta in India.  I grew up in Lafayette, Indiana then lived in Chicago (which is like a second home to me), then moved to Peoria, Illinois, and now I am finally here in Austin.  I have only been here for 4 months and loving it!  I'm excited to see where this city takes me in life.
 		</p>
+		</div>
 
 	</section>
 
+	<section id="sidebar">
+		<h2>Connect with Me</h2>
+		<img src="assets/images/linkedin.jpg" alt="LinkedIn" id="bio-image" style="width:50px;height:50px;">
+		<img src="assets/images/facebook.jpg" alt="Facebook" id="bio-image" style="width:50px;height:50px;">
+		<img src="assets/images/twitter.jpg" alt="Twitter" id="bio-image" style="width:50px;height:50px;">
+	</section>
+
 	</div>
+</div>	
+	<footer>
+		<p>&#169 Copyright Setu Biswas</p>
+	</footer>
 </body>
 </html>
