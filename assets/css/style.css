@@ -192,6 +192,8 @@ body {
 	width: 150px;
 	position: absolute;
 	z-index: 1;
+	padding-left: 100px;
+	padding-top: 10px;
 }  
 
 .text-box {
@@ -202,7 +204,7 @@ body {
 	width: 150px;
 	line-height: 50px;
 	position: relative;
-	margin-left: 90px;
+	margin-left: 100px;
 	z-index: 2;
 	float: left;
 	padding-bottom: 20px;
